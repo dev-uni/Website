@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>UniDev | Developers' meeting place</title>
-<link href="php1.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<title>Login | Uni dev</title>
+<link href="login1.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 </head>
@@ -11,9 +11,8 @@
 <body>
 
 <div class="container">
-  <header><h2><center>UniDev</center></h2><h3><center>Developers' meeting place</center></h3></P>
-    
-  </header>
+  <header><h2><center>UniDev</center></h2><h3><center>
+  Developers' meeting place</center></h3></header>
   <div class="sidebar1">
   <nav>
     <ul>
@@ -28,25 +27,23 @@
     </aside>
   <!-- end .sidebar1 --></div>
   <article class="content">
-    <h3>Home</h3>
-    <section>
-     <h4>Mission and Vision</h4>
-      <p><h5>Our Mission</h5></p>
-      <p>Mission statement here</p>
-      <p><h5>Our Vision</h5></p>
-      <p>Vision statement here</p>
-    </section>
-    <section>
-      <h4>Forums</h4>
-      <p>Description of our forums here</p>
-    </section>
     
-    <section>
-      <h4>Source code</h4>
-      <p>Description of source code section</p>
-      <p>more sections to be added</p>
-    </section>
-  <!-- end .content --></article>
+    <form method="post" action="loginx.php" >
+<center>
+<p><h3>Login</h3></p>
+
+<p>Username  :  <input type="text" id="username" maxlength="20" ></p>
+<p>Password  :   <input type="password" id="password" maxlength="20"></p>
+<p>
+  <label><input name="remember_me" type="checkbox">Remember me</label>        
+  <a href="passwordRecovery.html">Forgot password?</a></p>
+<p><input type="submit" id="loginButton" alt="Login" value="Login" width="1000" height="1000"></p>
+</center>
+</form>
+</article>
+    
+    
+    
   <aside>
     <p><a href="login.html">Log in</a></p>
     <p><a href="signup.html">Sign up</a></p>
